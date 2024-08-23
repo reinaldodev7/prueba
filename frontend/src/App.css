@@ -1,0 +1,43 @@
+.app {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;  
+  margin: 1rem auto;
+  width: 95% !important;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left; 
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+thead tr {
+  border-bottom: purple;
+  font-weight: bolder; 
+}
+
+header {
+  background: blueviolet;
+  padding: 16px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  width: 15rem !important;
+}
